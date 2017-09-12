@@ -15,7 +15,7 @@ namespace SimpleClient
         static FBaseClient.Client _client = new Client();
         static void Main(string[] args)
         {
-            System.Console.Out.WriteLine(":=:=:=:=:=:=:=:=:=:PeniSQL:=:=:=:=:=:=:=:=:=:");
+            System.Console.Out.WriteLine(":=:=:=:=:=:=:=:=:=:SuperSQL:=:=:=:=:=:=:=:=:=:");
             System.Console.Out.WriteLine("Enter IP:");
             var ip = IPAddress.Parse(System.Console.In.ReadLine());
             System.Console.Out.WriteLine("Enter port:");
